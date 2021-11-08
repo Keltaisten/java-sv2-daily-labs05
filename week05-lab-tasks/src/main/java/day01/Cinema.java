@@ -9,8 +9,6 @@ public class Cinema {
 
     public void addMovie(Movie movie){
         movies.add(movie);
-
-
     }
 
     public List<String> findMovieByTime(LocalDateTime time){
