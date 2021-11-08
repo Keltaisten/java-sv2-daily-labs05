@@ -16,7 +16,6 @@ public class Cinema {
     public List<String> findMovieByTime(LocalDateTime time){
         List<String> foundMovies = new ArrayList<>();
         for(Movie mov: movies){
-//            if(mov.getMovieTime().)
             for(LocalDateTime loc: mov.getMovieTime()){
                 if(loc.equals(time)){
                     foundMovies.add(mov.getTitle());
